@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right-side {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.menu ul li a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.nav-right-side button{
+    margin-left: 96px;
+    background-color: rgba(246, 95, 95, 1);
+    border-radius: 100px;
+    color: rgba(13, 13, 13, 1);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400px;
+}
