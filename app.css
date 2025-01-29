@@ -42,3 +42,43 @@ body{
     font-size: 18px;
     font-weight: 400px;
 }
+
+
+.header-main{
+    display: flex;
+    margin-top: 100px;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-right{
+    display: flex;
+    width: 480px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.heading .red{
+    color: red;
+}
+
+/* .header-left .header-main .heading .span-header-left h1{
+    color: white;
+} */
+
+.header-h1{
+    color: white;
+    font-size: 58px;
+    width: 500px;
+}
+
+.heading .yellow{
+    color: yellow;
+}
+
+.heading-p{
+    color: white;
+}
